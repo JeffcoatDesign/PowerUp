@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e55010e427e407f46bcd66b9dbf3f148, type: 3}
+  m_Name: IceElement
+  m_EditorClassIdentifier: 
+  _manaCost: 8
+  _cooldown: 0.05
+  _damage: 40
+  _speed: 0
+  _elements: 01000000
+  projectileMat: {fileID: 2100000, guid: f3fb1a15bb2622847ab82764fa7b128c, type: 2}
+  spellEffectName: 
+  spellEffectPrefab: {fileID: 2944795939655542421, guid: 9f66a651640ec974d9fbcb3abbcc5ea6, type: 3}
+  spellEffectDescription: 
