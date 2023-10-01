@@ -32,6 +32,8 @@ public class PlayerSpells : MonoBehaviour
         if (_isPaused) return;
         if (_currentMana > spellController.spell.ManaCost)
         {
+            spellController.Reset();
+            spellController.Decorate();
             _currentMana -= spellController.spell.ManaCost;
             spellController.Cast(playerLeftTransform);
         }
